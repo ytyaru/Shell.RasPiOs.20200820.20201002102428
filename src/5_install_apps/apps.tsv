@@ -26,6 +26,7 @@ Cui.Web.Google.Search	~/root/work/record/pc/reference/manual/raspbian/AutoInstal
 Cui.Web.Google.Translate	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_googler.sh
 Cui.Web.Google.ImageDownloader	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_googleimagesdownload.sh
 Tui.TextEditor	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_vim.sh
+Tui.TextBrowser	dialog
 Tui.TextBrowser	w3m
 Tui.TextBrowser	w3m-img
 Tui.TextBrowser	lynx
