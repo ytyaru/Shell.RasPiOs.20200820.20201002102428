@@ -1,8 +1,11 @@
 #!/bin/bash
 set -Ceu
 #-----------------------------------------------------------------------------
-# install_rust.sh
-# Created: 2019-05-18
+# Rust言語のSDKをインストールする。
+# Created: 2020-10-03
 #-----------------------------------------------------------------------------
-Run() { curl https://sh.rustup.rs -sSf | sh; }
+Run() { curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh; }
 Run
+# cargo new hello
+# cd hello
+# cargo run

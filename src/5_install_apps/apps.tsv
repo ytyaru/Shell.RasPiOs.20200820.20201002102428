@@ -11,6 +11,7 @@ Sdk.Lib.Gtk	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/inst
 Sdk.CSharp	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_sdk_mono.sh
 Sdk.Rust	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_rust.sh
 Ide.CSharp	monodevelop
+Cui.Auto	expect
 Cui.Downloader	aria2
 Cui.Clipboard	xsel
 Cui.XWindowAutomation	xdotool
@@ -23,7 +24,6 @@ Cui.SyntaxHighlighter	~/root/work/record/pc/reference/manual/raspbian/AutoInstal
 Cui.ScreenShot	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_raspi2png.sh
 Cui.ImageViewer	sxiv
 Cui.Web.Google.Search	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_googler.sh
-Cui.Web.Google.Translate	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_googler.sh
 Cui.Web.Google.ImageDownloader	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_googleimagesdownload.sh
 Tui.TextEditor	~/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_vim.sh
 Tui.TextBrowser	dialog
