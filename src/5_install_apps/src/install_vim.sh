@@ -103,6 +103,12 @@ Package() {
 	# https://kashewnuts.github.io/2019/01/28/move_from_jedivim_to_vimlsp.html
 	# https://kashewnuts.github.io/2018/08/22/jedivim_memo.html
 }
+HoldVersion() {
+	# https://www.hiroom2.com/2016/07/07/ubuntu-16-04-%E7%89%B9%E5%AE%9A%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%AF%BE%E8%B1%A1%E5%A4%96%E3%81%AB%E3%81%99%E3%82%8B/
+	sudo apt-mark hold vim
+	# sudo apt-mark unhold vim
+	# apt-mark showhold
+}
 ColorScheme() {
 	mkdir ~/.vim
 	cd ~/.vim
@@ -142,6 +148,7 @@ Run() {
 	InstallBuildTools
 	Download
 	Build
+	HoldVersion
 	ColorScheme
 # 以下は実行しない。
 #	. /home/pi/root/work/record/pc/reference/manual/raspbian/AutoInstall/src/install_vim_plugin.sh
