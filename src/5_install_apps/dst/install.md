@@ -1,4 +1,25 @@
-# ビルド
+# vim
+
+　`clipboard`を使いたい。だが`sudo apt install vim`で入れても使えない。そこで自分でビルドした。だが、もっと簡単な方法があった。`vim-gtk`をインストールすればいい。
+
+
+# vim-gtk
+
+* https://freeazy.com/raspberry-pi-3/
+
+```sh
+sudo apt remove vim
+sudo apt-get install vim-gtk
+```
+
+~/.vimrc
+```vimrc
+set clipboard=unnamedplus
+```
+
+# vim
+
+## ビルド
 
 ```sh
 make
@@ -7,7 +28,7 @@ sudo dpkg -i vim_20201003-1_armhf.deb
 sudo apt remove --purge
 ```
 
-# 実行
+## 実行
 
 ```sh
 vim
@@ -37,4 +58,6 @@ Press ENTER or type command to continue
 " hi Comment		term=bold	   ctermfg=LightRed   guifg=Orange
 hi Comment		term=bold	   ctermfg=LightRed   guifg=#FD7E00
 ```
+
+　だが、なぜかシンタックス・ハイライトが効かない・・・。
 
