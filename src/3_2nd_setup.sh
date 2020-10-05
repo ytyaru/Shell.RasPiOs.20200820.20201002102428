@@ -75,16 +75,17 @@ Run() {
 	}
 	# システム＆ファームウェア更新
 	update_system() {
-		sudo apt update -y
-		sudo apt full-upgrade -y
+		time sudo apt update -y
+		time sudo apt full-upgrade -y
+		time sudo apt install rpi-eeprom -y
 #		sudo apt update -y
 #		sudo apt upgrade -y
 #		sudo apt dist-upgrade -y
 	}
 	# 日本語化
 	install_japanese() {
-		sudo apt install -y fonts-vlgothic fonts-ipafont fonts-ipaexfont
-		sudo apt install -y fcitx-mozc
+		time sudo apt install -y fonts-vlgothic fonts-ipafont fonts-ipaexfont
+		time sudo apt install -y fcitx-mozc
 	}
 	# 音声をラズパイ本体のイヤホンジャックから出力させる方法: タスクバーの音量アイコンを右クリックして`Analog`を選択する。
 	

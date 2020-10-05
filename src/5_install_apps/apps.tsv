@@ -4,6 +4,7 @@ System.Japanese.Font	fonts-ipafont
 System.Japanese.Font	fonts-ipaexfont
 System.Japanese.IME	fcitx-mozc
 Sdk.Build	build-essential
+Sdk.Build	autoconf
 Sdk.Build	flex
 Sdk.Build	bison
 Sdk.Installer	checkinstall
