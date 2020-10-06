@@ -54,8 +54,15 @@ Run() {
 			tmpfs /tmp            tmpfs   defaults,size=2048m,noatime,mode=1777      0       0
 			tmpfs /var/tmp        tmpfs   defaults,size=16m,noatime,mode=1777      0       0
 			tmpfs /var/log        tmpfs   defaults,size=32m,noatime,mode=0755      0       0
-			tmpfs /home/pi/.cache/chromium/Default/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
 			tmpfs /home/pi/.cache/lxsession/LXDE-pi  tmpfs  defaults,size=1m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/Default/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/System\040Profile/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/Profile\0401/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/Profile\0402/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/Profile\0403/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/chromium/Profile\0404/  tmpfs  defaults,size=2048m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/pip  tmpfs  defaults,size=32m,noatime,mode=1777  0  0
+			tmpfs /home/pi/.cache/sxiv  tmpfs  defaults,size=32m,noatime,mode=1777  0  0
 			EOS
 		)"
 		write_line "${TEXT}" "/etc/fstab"
